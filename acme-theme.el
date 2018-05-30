@@ -3,11 +3,11 @@
 ;; Heavily based on E ink theme by Marian Schubert
 
 ;; Copyright (C) 2018 Ramakrishnan Muthukrishnan
-;; Copyright (C) 2013-2016 Marian Schubert
+;; Copyright (C) 2013-2016 Marian Schubert <marian.schubert@gmail.com>
 
-;; Author: Marian Schubert <marian.schubert@gmail.com>
-;; URL: http://github.com/maio/eink-emacs
-;; Version: 1.0
+;; Author: Ramakrishnan Muthukrishnan
+;; URL: http://github.com/vu3rdd/acme-theme
+;; Version: 0.1
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -30,6 +30,7 @@
 ;; syntactic elements than colours.
 
 ;;; Credits:
+;; Marian Schubert <marian.schubert@gmail.com> (for the e-ink theme)
 
 ;; Inspired by:
 ;;
@@ -43,7 +44,7 @@
 
 (let ((fg "#111111")
       (fg-table "#222291")
-      (bg "#ffffea") ;; "#fffff8")
+      (bg "#ffffea")
       (bg-light "#ddddd8")
       (bg-modeline "#aeeeee")
       (fg-light "#ddddd8")
