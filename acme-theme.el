@@ -187,12 +187,12 @@
    `(company-tooltip-selection ((t (:background ,bg-highlight))))
 
    ;; parens - parenface
-   '(parenface-paren-face ((t (:foreground "gray70"))))
-   '(parenface-curly-face ((t (:foreground "gray70"))))
-   '(parenface-bracket-face ((t (:foreground "gray70"))))
+   '(parenface-paren-face ((t (:foreground "blue"))))
+   '(parenface-curly-face ((t (:foreground "blue"))))
+   '(parenface-bracket-face ((t (:foreground "blue"))))
 
    ;; parens - paren-face
-   '(parenthesis ((t (:foreground "gray70"))))
+   '(parenthesis ((t (:foreground "blue"))))
 
    ;; parens - other
    `(sp-show-pair-match-face ((t (:foreground "black" :weight bold))))
@@ -230,7 +230,7 @@
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
    `(eshell-prompt ((t (:foreground ,fg :weight bold))))
    `(cider-result-overlay-face ((t (:weight bold))))
-   `(hl-line ((t (:background ,bg-highlight)))) ;;; "#ece3b7")))) ;; "#fcfaf0" ))))
+   `(hl-line ((t (:background ,bg-highlight))))
    `(Shadow ((t (:foreground "grey75"))))
    `(idle-highlight ((t (:background ,bg-highlight))))
    
