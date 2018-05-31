@@ -13,9 +13,9 @@ programming language. The thing that tilts me in favour of emacs is my own famil
 with it and the fact that it is more keyboard oriented. While text commands can be easily
 attached to Acme, it needs heavy use of mouse and chording. I am yet to find a good mouse
 that can work well with acme. I have tried everything from evoluent to various gaming mice
-and didn't find a good user experience. That might be a personal thing. But hey, that's why
-I am writing this mode because Emacs is very easily extensible and this sounded like a way
-to learn some emacs lisp, which I haven't used for a while.
+and didn't find it to be a good user experience. That might be a personal thing. But hey, 
+that's why I am writing this mode because Emacs is very easily extensible and this sounded
+like a way to learn some emacs lisp, which I haven't used for a while.
 
 ## Install
 
@@ -25,6 +25,8 @@ and then putting the `acme-theme.el` file there. After that, in the `~/.emacs.d/
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (load-theme 'acme t)
 ```
+
+## Obligatory screenshot
 
 ![acme-mode-haskell](https://rkrishnan.org/files/acme-theme-screenshot.png)
 
