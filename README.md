@@ -26,3 +26,5 @@ and then putting the `acme-theme.el` file there. After that, in the `~/.emacs.d/
 (load-theme 'acme t)
 ```
 
+![acme-mode-haskell](https://rkrishnan.org/files/acme-theme-screenshot.png)
+
